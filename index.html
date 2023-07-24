@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Design</title>
-    <link rel="stylesheet" href="assests/styles.css" />
+    <link rel="stylesheet" href="assests/styles/styles.css" />
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -58,8 +58,8 @@
         Here's a summary of your Eden life. Let me tell you, your life is about
         to become waayyy easier.
       </p>
-      <div class="plan-details">
-        <p class="heading-dark">Your Plan Details</p>
+      <div class="card-flex">
+        <p class="text-bold">Your Plan Details</p>
         <p class="text-green">Add or Remove Services</p>
       </div>
       <div class="border-dark"></div>
@@ -68,12 +68,12 @@
           <div class="flex-card">
             <img class="card-icon" src="./assests/images/food.png" alt="" />
             <div>
-              <h6 class="card-header">Food</h6>
+              <h6 class="font-header">Food</h6>
               <p class="card-text">₦27,000</p>
             </div>
           </div>
           <div class="flex-card card-text">
-            <p>Expand details</p>
+            <p class="text-bold">Expand details</p>
             <i class="uil uil-angle-down"></i>
           </div>
         </div>
@@ -81,12 +81,12 @@
           <div class="flex-card">
             <img class="card-icon" src="./assests/images/laundry.png" alt="" />
             <div>
-              <h6 class="card-header">Laundry</h6>
+              <h6 class="font-header">Laundry</h6>
               <p class="card-text">₦27,000</p>
             </div>
           </div>
           <div class="flex-card card-text">
-            <p>Expand details</p>
+            <p class="text-bold">Expand details</p>
             <i class="uil uil-angle-down"></i>
           </div>
         </div>
@@ -94,12 +94,12 @@
           <div class="flex-card">
             <img class="card-icon" src="./assests/images/cleaning.png" alt="" />
             <div>
-              <h6 class="card-header">Cleaning</h6>
+              <h6 class="font-header">Cleaning</h6>
               <p class="card-text">₦27,000</p>
             </div>
           </div>
           <div class="flex-card card-text">
-            <p>Expand details</p>
+            <p class="text-bold">Expand details</p>
             <i class="uil uil-angle-down"></i>
           </div>
         </div>
@@ -107,13 +107,69 @@
           <div class="flex-card">
             <img class="card-icon" src="./assests/images/beauty.png" alt="" />
             <div>
-              <h6 class="card-header">Food</h6>
+              <h6 class="font-header">Food</h6>
               <p class="card-text">₦27,000</p>
             </div>
           </div>
           <div class="flex-card card-text">
-            <p>Expand details</p>
+            <p class="text-bold">Expand details</p>
             <i class="uil uil-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <div class="border-dark"></div>
+      <div class="card-flex">
+        <p class="heading-dark">Start date</p>
+        <p class="text-green text-bold">Choose your start date</p>
+      </div>
+      <div class="alert-card date-card">
+        <img src="./assests/images/alert.png" alt="alert" />
+        <p class="heading-dark text-bold">Choose your start date</p>
+      </div>
+      <div class="border-dark"></div>
+
+      <p class="heading-dark text-bold">Discount Code</p>
+      <div class="discount">
+        <div>
+          <input id="input-field" type="text" placeholder="247LOVE4U" />
+          <p class="text-green">Code successfully applied.</p>
+        </div>
+        <div>
+          <button class="remove-button font-header">Remove code</button>
+        </div>
+      </div>
+      <div class="border-dark"></div>
+      <div>
+        <div class="card-flex">
+          <p>Subtotal</p>
+          <p>₦112,000.00</p>
+        </div>
+        <div class="card-flex">
+          <p>Discount applied (25% off)</p>
+          <p class="text-green">- ₦28,000</p>
+        </div>
+        <div class="card-flex">
+          <div>
+            <p>Total</p>
+          </div>
+          <div class="discount-align">
+            <p class="text-bold">₦102,000.00</p>
+            <span class="text-font"
+              >This amount covers your subscription for the next 4 weeks.</span
+            >
+          </div>
+        </div>
+        <div class="alert-card sub-card">
+          <img src="./assests/images/alertdark.png" alt="" />
+          <p>
+            Your subscription amount for subsequent months will be ₦112,000.
+          </p>
+        </div>
+        <div class="view-laundry">
+          <button class="laundry-btn">View Laundry Frequency</button>
+          <div class="customise">
+            <p class="customise-text">Not what you want?</p>
+            <a class="text-green" href="#">Customise your plan</a>
           </div>
         </div>
       </div>
