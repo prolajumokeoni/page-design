@@ -55,7 +55,8 @@ Project Design is simple responsive application, it has a home, select plan and 
 
 Mobile home          |  Mobile modal    
 :-------------------------:|:-------------------------:
-![projectdesignmobile netlifyapp_home html](https://github.com/prolajumokeoni/dog-api/assets/69638013/0612c22e-1d38-423d-b34a-d0026b6924c7)  |  ![projectdesignmobile netlify app_home html (3)](https://github.com/prolajumokeoni/dog-api/assets/69638013/9c358c47-8397-47a1-adb3-33baf7eaa5f9)
+![projectdesignmobile netlify app_home html](https://github.com/prolajumokeoni/project-design/assets/69638013/c3e12259-ea40-449d-aa6d-2efc38ee36bb) | ![projectdesignmobile netlify app_home html (5)](https://github.com/prolajumokeoni/project-design/assets/69638013/3f82b2d4-1dbc-4ddd-8d59-7f5924862ee7)
+
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
