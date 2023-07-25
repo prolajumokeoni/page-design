@@ -218,10 +218,14 @@ footer a {
   cursor: pointer;
 }
 
+.cleaning-border {
+	border-top: 2px dashed #CBD8D2;
+  margin-top: 15px;
+  padding-top: 10px
+}
 
 .delivery-border {
-	border: 1px dashed #CBD8D2;
-	border-width: 2px;
+	border: 2px dashed #CBD8D2;
   margin: 20px 0;
   padding: 7px;
 }
@@ -275,4 +279,8 @@ align-items: center;
 
 .order-margin {
   margin-left: 7px;
+}
+
+.text-green {
+  color: #03A84E;
 }
