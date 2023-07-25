@@ -61,7 +61,8 @@ Mobile home          |  Mobile modal
 
 ## Video Link <a name="video"></a>
 
-[video link](https://github.com/prolajumokeoni/project-design/assets/69638013/5f1387ff-4279-4fa7-a4bd-5f8f524319b1)
+[video link](
+https://github.com/prolajumokeoni/project-design/assets/69638013/b93895df-a4ba-4f31-abe6-458ed794db5e)
 
 
 ## Deployed Link <a name="Live Demo"></a>
