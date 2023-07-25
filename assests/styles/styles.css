@@ -34,6 +34,7 @@ ul li .text {
   font-size: 14px;
   font-weight: 600;
   color: #14b757;
+  margin-left: 15px;
 }
 
 /* Progress Div Css  */
@@ -238,6 +239,7 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5px;
 }
 
 .view-laundry {
@@ -268,4 +270,28 @@ input {
 
 .confetti-btn-down {
   margin-top: 70px;
+}
+.home-link {
+  position: fixed;
+  bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  ul li .icon {
+    margin: 0 78px;
+  }
+.progress::after{
+  width: 125px; 
+}
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+}
+
+@media (min-width: 1440px) {
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
