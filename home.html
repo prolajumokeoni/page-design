@@ -1,113 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="assests/styles/home.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <div class="bar bg-nav text-dark">
-          <i class="uil uil-bars"></i>
-        </div>
-      </nav>
-      <h4>Hi, Aderinsola!</h4>
-      <img class="bg-nav avatar" src="./assests/images/avatar.png" alt="" />
-    </header>
-    <nav class="top-nav">
-      <a href="#">Home</a>
-      <a href="#">Upcoming</a>
-    </nav>
-    <section>
-      <div class="bg-green-top">
-        <div class="food-wrapper">
-          <img class="food-img" src="./assests/images/food2.png" alt="" />
-        </div>
-        <div class="food-bg">
-          <h6>Tap here to call us</h6>
-          <p>
-            Do you have any inquiry about your meals? You can simply tap to call
-            us.
-          </p>
-        </div>
-      </div>
-      <div class="card-wrapper delivery-bg">
-        <div class="flex-food">
-          <div class="food-top">
-            <h4 class="text-food text-bold bg-green">Food Delivery</h4>
-            <img class="" src="./assests/images/food.png" alt="" />
-          </div>
-          <div>
-            <a class="a-link food-link"
-              >View Status
-              <i class="uil uil-angle-right-b"></i>
-            </a>
-          </div>
-        </div>
-        <div class="food-top">
-          <img src="./assests/images/chips.png" alt="" />
-          <div>
-            <p class="text-gray">French Fries with</p>
-            <p class="text-bold">BBQ Turkey Wings & Coleslaw</p>
-          </div>
-        </div>
-        <div class="border-dark"></div>
-        <div clo>
-          <i class="uil uil-clock"></i>
-           <span>10: 00 AM - 11:30 AM</span>
-        </div>
-      </div>
-      
-      <div class="card-wrapper cleaning-wrapper">
-        <div class="flex-food">
-          <div class="food-top">
-            <h4 class="text-food text-bold orange-text">Home Cleaning</h4>
-            <img class="" src="./assests/images/cleaning.png" alt="" />
-          </div>
-          <div>
-            <a class="a-link home-link orange-text"
-              >View Status
-              <i class="uil uil-angle-right-b"></i>
-            </a>
-          </div>
-        </div>
-        <div class="food-top"> 
-            <p class="text-gray">Get ready; our cleaner is coming to get your house pampered.</p>
-        </div>
-        <div class="orange-border"></div>
-        <div>
-          <i class="uil uil-clock"></i>
-           <span>10: 00 AM - 11:30 AM</span>
-        </div>
-      </div>
-      
-    </section>
-    <footer>
-      <nav class="bottom-nav"> 
-        <div class="first-nav">
 
-          <i class="uil uil-home"></i>
-          <a href="#">Home</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="assests/styles/home.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="bar bg-nav text-dark">
+        <i class="uil uil-bars"></i>
+      </div>
+    </nav>
+    <h4>Hi, Aderinsola!</h4>
+    <img class="bg-nav avatar" src="./assests/images/avatar.png" alt="" />
+  </header>
+  <nav class="top-nav">
+    <a href="#">Home</a>
+    <a href="#">Upcoming</a>
+  </nav>
+  <section>
+    <div class="bg-green-top">
+      <div class="food-wrapper">
+        <img class="food-img" src="./assests/images/food2.png" alt="" />
+      </div>
+      <div class="food-bg">
+        <h6>Tap here to call us</h6>
+        <p>
+          Do you have any inquiry about your meals? You can simply tap to call
+          us.
+        </p>
+      </div>
+    </div>
+
+    <div class="card-wrapper delivery-bg">
+      <div class="flex-food">
+        <div class="food-top">
+          <h4 class="text-food text-bold bg-green">Food Delivery</h4>
+          <img class="" src="./assests/images/food.png" alt="" />
         </div>
         <div>
-          <i class="uil uil-history-alt"></i>
-          <a href="#">History</a>
+          <button id="myBtn" class="a-link food-link">View Status
+            <i class="uil uil-angle-right-b"></i>
+          </button>
+        </div>
+      </div>
+      <div class="food-top">
+        <img src="./assests/images/chips.png" alt="" />
+        <div>
+          <p class="text-gray">French Fries with</p>
+          <p class="text-bold">BBQ Turkey Wings & Coleslaw</p>
+        </div>
+      </div>
+      <div class="border-dark"></div>
+      <div clo>
+        <i class="uil uil-clock"></i>
+        <span>10: 00 AM - 11:30 AM</span>
+      </div>
+    </div>
+    <!-- modal for food delivery -->
+    <div id="myModal" class="modal">
+
+      <div class="modal-content">
+        <div class="modal-top">
+          <span>Mon, 08 Sep 2021 </span>
+          <span class="close bar bg-nav">&times;</span>
+        </div>
+        <div class="order-group">
+          <img src="./assests/images/food.png" alt="food">
+       <div>
+         <p>Order Status</p>
+         <p class="text-bold">Order has arrived</p>
+        </div>
+        </div>
+        <div class="delivery-border">
+          <p class="text-gray">Delivery Address</p>
+          <p class="text-bold">No 6B, Radiators Spring, Lightning Estate, Lagos, Nigeria.</p>
+        </div>
+        <div class="main-wrapper">
+
+        <div class="order-wrapper">
+          <div class="order-time order-margin">
+            <div class="order-img">
+              <img src="./assests/images/elipse.png" alt="elipse">
+              <img src="./assests//images/Line.png" alt="line">
+           
+            </div>
+            <div>
+              
+              <div>
+                <p class="text-bold">Order has arrived</p>
+                <p>Your order has arrived at your location. Pick it up!</p>
+              </div>
+            </div>
+        </div>
+            <small class="date text-gray">10:56 AM</small>
+        </div>
+        <div class="order-wrapper">
+          <div class="order-time">
+            <div class="order-img">
+              <img src="./assests/images/tick.png" alt="">
+            </div>
+            <div>
+              <p class="text-bold">Order on the way</p>
+              <p>Your order has been dispatched and is on the way to you.</p>
+            </div>
+          </div>
+          <small class="date text-gray">10:56 AM</small>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="card-wrapper cleaning-wrapper">
+      <div class="flex-food">
+        <div class="food-top">
+          <h4 class="text-food text-bold orange-text">Home Cleaning</h4>
+          <img class="" src="./assests/images/cleaning.png" alt="" />
         </div>
         <div>
-          <i class="uil uil-bell"></i>
-          <a href="#">Notifications</a>
+          <button id="myBtn2" class="a-link home-link orange-text">View Status
+            <i class="uil uil-angle-right-b"></i>
+          </button>
         </div>
-        <div>
-          <i class="uil uil-comment"></i>
-          <a href="#">Gardener</a>
+      </div>
+      <div class="food-top">
+        <p class="text-gray">Get ready; our cleaner is coming to get your house pampered.</p>
+      </div>
+      <div class="orange-border"></div>
+      <div>
+        <i class="uil uil-clock"></i>
+        <span>10: 00 AM - 11:30 AM</span>
+      </div>
+    </div>
+    <div id="myModal2" class="modal2">
+
+      <div class="modal-content">
+        <div class="modal-top">
+          <span>Mon, 08 Sep 2021 </span>
+          <span class="close2 bar bg-nav">&times;</span>
         </div>
-      </nav>
-    </footer>
-  </body>
+        <div class="order-group">
+          <img src="./assests/images/food.png" alt="food">
+       <div>
+         <p>Order Status</p>
+         <p class="text-bold">Order has arrived</p>
+        </div>
+        </div>
+        <div class="delivery-border">
+          <p class="text-gray">Delivery Address</p>
+          <p class="text-bold">No 6B, Radiators Spring, Lightning Estate, Lagos, Nigeria.</p>
+        </div>
+        <div class="main-wrapper">
+
+        <div class="order-wrapper">
+          <div class="order-time order-margin">
+            <div class="order-img">
+              <img src="./assests/images/elipse.png" alt="elipse">
+              <img src="./assests//images/Line.png" alt="line">
+           
+            </div>
+            <div>
+              
+              <div>
+                <p class="text-bold">Order has arrived</p>
+                <p>Your order has arrived at your location. Pick it up!</p>
+              </div>
+            </div>
+        </div>
+            <small class="date text-gray">10:56 AM</small>
+        </div>
+        <div class="order-wrapper">
+          <div class="order-time">
+            <div class="order-img">
+              <img src="./assests/images/tick.png" alt="">
+            </div>
+            <div>
+              <p class="text-bold">Order on the way</p>
+              <p>Your order has been dispatched and is on the way to you.</p>
+            </div>
+          </div>
+          <small class="date text-gray">10:56 AM</small>
+        </div>
+      </div>
+      </div>
+  </section>
+  </section>
+  <footer>
+    <nav class="bottom-nav">
+      <div class="first-nav">
+
+        <i class="uil uil-home"></i>
+        <a href="#">Home</a>
+      </div>
+      <div>
+        <i class="uil uil-history-alt"></i>
+        <a href="#">History</a>
+      </div>
+      <div>
+        <i class="uil uil-bell"></i>
+        <a href="#">Notifications</a>
+      </div>
+      <div>
+        <i class="uil uil-comment"></i>
+        <a href="#">Gardener</a>
+      </div>
+    </nav>
+  </footer>
+  <script src="./home.js"></script>
+</body>
+
 </html>

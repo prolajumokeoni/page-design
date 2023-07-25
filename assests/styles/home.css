@@ -11,7 +11,6 @@ p {
 .bar {
   width: 30px;
   height: 30px;
-
   border: 1px solid #e2e9e6;
 }
 
@@ -82,6 +81,7 @@ header {
 .food-link{
 color: #03A84E;
 background-color: #E9FBF2;
+border: none;
 }
 
 .card-wrapper {
@@ -140,6 +140,8 @@ background-color: #E9FBF2;
 
 .home-link {
 	background-color: #FFF3DF;
+border: none;
+
 }
 
 .orange-border {
@@ -173,3 +175,104 @@ footer a {
 	color: #03A84E;
 }
 
+
+/* The Modal (background) */
+.modal2,
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close2,
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close2:hover,
+.close2:focus,
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.delivery-border {
+	border: 1px dashed #CBD8D2;
+	border-width: 2px;
+  margin: 20px 0;
+  padding: 7px;
+}
+
+.modal-top {
+	display: flex;
+  justify-content: space-between;
+	align-items: center;
+}
+
+.order-group {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.order-time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.order-wrapper {
+  display: flex;
+  gap: 10px;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+.date {
+  width: 30%;
+  text-align: end;
+}
+
+.line {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.order-img {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+align-items: center;
+}
+
+.order-margin {
+  margin-left: 7px;
+}
