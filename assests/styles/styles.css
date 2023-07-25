@@ -251,3 +251,21 @@ input {
 .customise-text {
   color: #0F241B;
 }
+
+
+/* confetti */
+.confetti-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 100px  auto 50px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.confetti-btn-down {
+  margin-top: 70px;
+}

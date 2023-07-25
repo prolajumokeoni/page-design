@@ -30,3 +30,17 @@ four.onclick = function() {
     four.classList.add("active");
 }
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const submitBtn = document.getElementById('submitBtn');
+  
+    const handleClick = () => {
+      setTimeout(() => {
+        window.location.href = 'confetti.html';
+      }, 2000);
+    };
+  
+    submitBtn.addEventListener('click', handleClick);
+  });
+
+  
