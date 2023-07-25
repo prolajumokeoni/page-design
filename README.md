@@ -3,13 +3,14 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Project Design \] ](#-project-design--)
+- [📖 Project Design ](#-project-design-)
+- [How the app works](#how-the-app-works)
 	- [🛠 Built With ](#-built-with-)
 		- [Key Features ](#key-features-)
 	- [🎥 Screenshots ](#-screenshots-)
+	- [Video Link ](#video-link-)
 	- [Deployed Link ](#deployed-link-)
 	- [💻 Getting Started ](#-getting-started-)
-		- [Prerequisites](#prerequisites)
 		- [Setup](#setup)
 		- [Run](#run)
 	- [👥 Author ](#-author-)
@@ -21,9 +22,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Project Design ] <a name="about-project"></a>
+# 📖 Project Design <a name="about-project"></a>
  
-**[Project Design ]** is simple responsive application, it has a home, select plan and confetti three page.
+Project Design is simple responsive application, it has a home, select plan and confetti three page.
+
+# How the app works
+   When you open the [deployed link](https://projectdesignmobile.netlify.app/) you see the Plan page, which is the default page, at the bottom of the page  there is a button View Laundry Frequency, when you click on the View Laundry Frequency currently it navigates  to the confetti page, on the confetti page, there is a link to the Home page and when you click on the view status button you will see a modal.
 ## 🛠 Built With <a name="built-with"></a>
 
 - Html
@@ -39,18 +43,26 @@
 
 - **Home page** 
 - **Select plan page** 
+- **Confetti page** 
+  
 
 <p align="right"><a href="#readme-top">back to top</a></p>
  
  
   
 ## 🎥 Screenshots <a name="screenshot"></a>
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 Mobile home          |  Mobile modal    
 :-------------------------:|:-------------------------:
 ![projectdesignmobile netlifyapp_home html](https://github.com/prolajumokeoni/dog-api/assets/69638013/0612c22e-1d38-423d-b34a-d0026b6924c7)  |  ![projectdesignmobile netlify app_home html (3)](https://github.com/prolajumokeoni/dog-api/assets/69638013/9c358c47-8397-47a1-adb3-33baf7eaa5f9)
+
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## Video Link <a name="video"></a>
+
+[video link](https://github.com/prolajumokeoni/project-design/assets/69638013/5f1387ff-4279-4fa7-a4bd-5f8f524319b1)
+
 
 ## Deployed Link <a name="Live Demo"></a>
 
@@ -64,11 +76,7 @@ Mobile home          |  Mobile modal
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
 
-In order to run this project you need:
-
-`Node` 
 
 ### Setup
 
@@ -78,10 +86,7 @@ Clone this repository to your desired folder:
 
 - Type `cd project-desgn` to access the project on the terminal.
 
-### Run
-
-
-
+### Run  
 - `Open live server` or copy path of `index.html` 
  
  
@@ -130,9 +135,7 @@ If you like this project kindly give it a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
  
- Thanks to [ IconSout](https://iconscout.com/unicons/explore/line?redirect=%2Funicons%2Fexplore%2Fline%3Fcolor%3D%2525236563FF%26name%3Darrow-left) for their icons and 
- 
-  [canvas confetti](https://github.com/catdad/canvas-confetti) for this wonderful JavaScript library
+ Thanks to [ IconSout](https://iconscout.com/unicons/explore/line?redirect=%2Funicons%2Fexplore%2Fline%3Fcolor%3D%2525236563FF%26name%3Darrow-left) for their icons and [canvas confetti](https://github.com/catdad/canvas-confetti) for this wonderful JavaScript library
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
