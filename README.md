@@ -7,8 +7,9 @@
 - [How the app works](#how-the-app-works)
 	- [🛠 Built With ](#-built-with-)
 		- [Key Features ](#key-features-)
+		- [Screen sizes ](#screen-sizes-)
 	- [🎥 Screenshots ](#-screenshots-)
-	- [Video Link ](#video-link-)
+	- [Video ](#video-)
 	- [Deployed Link ](#deployed-link-)
 	- [💻 Getting Started ](#-getting-started-)
 		- [Setup](#setup)
@@ -44,6 +45,13 @@ Project Design is simple responsive application, it has a home, select plan and 
 - **Home page** 
 - **Select plan page** 
 - **Confetti page** 
+
+### Screen sizes <a name="Screen sizes"></a>
+ 
+
+- **Mobile: 375px** 
+- **Tablet: 768px** 
+- **Desktop: 1024px** 
   
 
 <p align="right"><a href="#readme-top">back to top</a></p>
@@ -53,17 +61,19 @@ Project Design is simple responsive application, it has a home, select plan and 
 ## 🎥 Screenshots <a name="screenshot"></a>
 
 
-Mobile home          |  Mobile modal    
+Mobile home       |  Mobile  home modal    
 :-------------------------:|:-------------------------:
-![projectdesignmobile netlify app_home html](https://github.com/prolajumokeoni/project-design/assets/69638013/c3e12259-ea40-449d-aa6d-2efc38ee36bb) | ![projectdesignmobile netlify app_home html (5)](https://github.com/prolajumokeoni/project-design/assets/69638013/3f82b2d4-1dbc-4ddd-8d59-7f5924862ee7)
+![projectdesignmobile netlify app_home html](https://github.com/prolajumokeoni/project-design/assets/69638013/c3e12259-ea40-449d-aa6d-2efc38ee36bb) | ![Screenshot_125](https://github.com/prolajumokeoni/project-design/assets/69638013/2af51623-7fbb-4100-b268-cfbceb3fce9d)
+
 
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-## Video Link <a name="video"></a>
+## Video <a name="video"></a>
 
 [video link](
-https://github.com/prolajumokeoni/project-design/assets/69638013/b93895df-a4ba-4f31-abe6-458ed794db5e)
+https://github.com/prolajumokeoni/project-design/assets/69638013/c322c166-8b2e-4f9d-9494-234bb84d698e
+)
 
 
 ## Deployed Link <a name="Live Demo"></a>
